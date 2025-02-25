@@ -1,6 +1,6 @@
 # Metin_Tabanli_Goruntu_Uretimi-FineTunning
 
-Bu projede, Stable Diffusion modelini kullanarak metin girdilerinden yüksek kaliteli görseller üretmeyi ve özel veri setleri ile ince ayar (fine-tuning) yapmayı amaçladık. Projede hem temel model kurulumu hem de gelişmiş teknikler (Textual Inversion, LoRA, ControlNet/inpainting, CLIP Guidance) uygulanmıştır. Ayrıca, son aşamada üretilen görseller FID gibi objektif metriklerle değerlendirilmiş ve modelin üretim sürecini kullanıcı dostu hale getirmek için Gradio tabanlı arayüz ve FastAPI tabanlı web API geliştirilmiştir.
+Bu projede, Stable Diffusion modelini kullanarak metin girdilerinden yüksek kaliteli görseller üretmeyi ve özel veri setleri ile ince ayar (fine-tuning) yapmayı amaçladık. Projede hem temel model kurulumu hem de gelişmiş teknikler (Textual Inversion, LoRA, ControlNet/inpainting, CLIP Guidance) uygulanmıştır. Ayrıca, son aşamada üretilen görseller FID gibi objektif metriklerle değerlendirilmiş ve modelin üretim sürecini kullanıcı dostu hale getirmek için Gradio tabanlı arayüz geliştirilmiştir.
 
 ControlNet kullanılarak, belirli alanlarda detaylandırma yapılan görseller elde edilmiştir. Aşağıdaki şematik örnek, inpainting sürecini özetlemektedir:
 
